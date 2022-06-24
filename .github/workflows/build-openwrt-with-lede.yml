@@ -45,11 +45,12 @@ on:
           - 5.18.1
           - 5.15.45
           - 5.10.100
+          - 5.10.120
           - 5.4.190
       auto_kernel:
         description: "Auto use the latest kernel"
         required: false
-        default: true
+        default: false
         type: boolean
       openwrt_size:
         description: "Set the rootfs size(Unit: MiB)."
